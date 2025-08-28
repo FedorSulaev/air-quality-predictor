@@ -1,5 +1,3 @@
-Duplicate removal on 2025-08-30 15:19:34.368277
-Original dataset: 49218 rows
-Exact duplicates removed: 0
-Key-based duplicates removed: 0
-Final dataset: 49218 rows
+Timestamp format standardization on 2025-08-30 15:46:44.375019
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
