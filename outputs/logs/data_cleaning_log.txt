@@ -43,3 +43,11 @@ wind_speed_ms                             float64
 sky_cover                                category
 precip_mm                                 float64
 dtype: object
+
+--- Log entry 2025-08-30 16:28:05.095716 ---
+Temporal split at 2024-09-01
+Training period: 2020-01-01 02:00:00+02:00 to 2024-08-31 23:00:00+03:00
+Test period: 2024-09-01 00:00:00+03:00 to 2025-08-21 00:00:00+03:00
+
+--- Log entry 2025-08-30 16:38:56.088426 ---
+Temporal split using TimeSeriesSplit with n_splits=5
