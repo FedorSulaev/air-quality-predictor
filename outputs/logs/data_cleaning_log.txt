@@ -51,3 +51,54 @@ Test period: 2024-09-01 00:00:00+03:00 to 2025-08-21 00:00:00+03:00
 
 --- Log entry 2025-08-30 16:38:56.088426 ---
 Temporal split using TimeSeriesSplit with n_splits=5
+
+--- Log entry 2025-08-30 17:04:21.139595 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-30 17:04:21.300655 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-30 17:04:21.508662 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-30 17:04:21.542658 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-30 17:04:21.583751 ---
+Temporal split using TimeSeriesSplit with n_splits=5
