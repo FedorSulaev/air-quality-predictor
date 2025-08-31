@@ -1369,3 +1369,600 @@ Dropping rows with nan values in target
 
 --- Log entry 2025-08-31 15:30:53.962105 ---
 Preprocessed datasets using preprocessing pipeline, for categorical and numerical features
+
+--- Log entry 2025-08-31 16:10:05.018986 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:10:05.171681 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:10:05.361062 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:10:05.392822 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:10:05.430764 ---
+Dropped columns that don't have variation location_id, sensors_id, location, lat, lon, parameter, units, wind_speed_ms]
+
+--- Log entry 2025-08-31 16:10:05.461585 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+Dropping rows with nan values in target
+
+--- Log entry 2025-08-31 16:10:05.562558 ---
+Preprocessed datasets using preprocessing pipeline, for categorical and numerical features
+
+--- Log entry 2025-08-31 16:12:06.931650 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:12:07.083253 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:12:07.276392 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:12:07.308295 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:12:07.353161 ---
+Dropped columns that don't have variation location_id, sensors_id, location, lat, lon, parameter, units, wind_speed_ms]
+
+--- Log entry 2025-08-31 16:12:07.378889 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+Dropping rows with nan values in target
+
+--- Log entry 2025-08-31 16:12:07.503444 ---
+Preprocessed datasets using preprocessing pipeline, for categorical and numerical features
+
+--- Log entry 2025-08-31 16:14:41.050502 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:14:41.200354 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:14:41.452939 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:14:41.485507 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:14:41.529251 ---
+Dropped columns that don't have variation location_id, sensors_id, location, lat, lon, parameter, units, wind_speed_ms]
+
+--- Log entry 2025-08-31 16:14:41.581536 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+Dropping rows with nan values in target
+
+--- Log entry 2025-08-31 16:14:41.722401 ---
+Preprocessed datasets using preprocessing pipeline, for categorical and numerical features
+
+--- Log entry 2025-08-31 16:16:42.441918 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:16:42.592385 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:16:42.782908 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:16:42.813490 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:16:42.855937 ---
+Dropped columns that don't have variation location_id, sensors_id, location, lat, lon, parameter, units, wind_speed_ms]
+
+--- Log entry 2025-08-31 16:16:42.876773 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+Dropping rows with nan values in target
+
+--- Log entry 2025-08-31 16:16:43.043278 ---
+Preprocessed datasets using preprocessing pipeline, for categorical and numerical features
+
+--- Log entry 2025-08-31 16:20:08.724133 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:20:08.874845 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:20:09.123716 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:20:09.154588 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:20:09.209150 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+Dropping rows with nan values in target
+
+--- Log entry 2025-08-31 16:20:09.322006 ---
+Preprocessed datasets using preprocessing pipeline, for categorical and numerical features
+
+--- Log entry 2025-08-31 16:24:14.688984 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:24:14.872013 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:24:15.063418 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:24:15.162495 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:24:15.221990 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+Dropping rows with nan values in target
+
+--- Log entry 2025-08-31 16:26:55.488422 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:26:55.640737 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:26:55.843918 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:26:55.881833 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:26:55.939751 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+
+--- Log entry 2025-08-31 16:27:10.211270 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:27:10.361717 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:27:10.557167 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:27:10.606106 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:27:10.693926 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+
+--- Log entry 2025-08-31 16:29:33.627104 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:29:33.861797 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:29:34.104030 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:29:34.138537 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:29:34.200181 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+
+--- Log entry 2025-08-31 16:29:47.113185 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:29:47.331467 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:29:47.517609 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:29:47.551353 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:29:47.612612 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+
+--- Log entry 2025-08-31 16:43:06.654546 ---
+Original dataset: 49218 rows
+Exact duplicates removed: 0
+Key-based duplicates removed: 0
+Final dataset: 49218 rows
+
+--- Log entry 2025-08-31 16:43:06.872283 ---
+Replaced values with missing code with nan [-9999, -999, -99, 9999, 999]
+
+--- Log entry 2025-08-31 16:43:07.055730 ---
+Original datetime type: object
+Final type: datetime64[ns, Europe/Bucharest]
+
+--- Log entry 2025-08-31 16:43:07.087399 ---
+Original data typs: location_id      float64
+sensors_id       float64
+location          object
+datetime          object
+lat              float64
+lon              float64
+parameter         object
+units             object
+value            float64
+temp_C           float64
+dewpoint_C       float64
+slp_hPa          float64
+wind_dir_deg     float64
+wind_speed_ms    float64
+sky_cover         object
+precip_mm        float64
+dtype: objectFinal data types: location_id                               float64
+sensors_id                                float64
+location                                 category
+datetime         datetime64[ns, Europe/Bucharest]
+lat                                       float64
+lon                                       float64
+parameter                                category
+units                                    category
+value                                     float64
+temp_C                                    float64
+dewpoint_C                                float64
+slp_hPa                                   float64
+wind_dir_deg                              float64
+wind_speed_ms                             float64
+sky_cover                                category
+precip_mm                                 float64
+dtype: object
+
+--- Log entry 2025-08-31 16:43:07.147474 ---
+Temporal split using TimeSeriesSplit with n_splits=5
+
+--- Log entry 2025-08-31 17:05:21.510235 ---
+Removed rows from train/test datasets where target is NaN
