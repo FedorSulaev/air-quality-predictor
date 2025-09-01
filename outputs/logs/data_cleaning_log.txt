@@ -1966,3 +1966,27 @@ Temporal split using TimeSeriesSplit with n_splits=5
 
 --- Log entry 2025-08-31 17:05:21.510235 ---
 Removed rows from train/test datasets where target is NaN
+
+--- Log entry 2025-09-01 19:27:23.253779 ---
+Removed rows from train/test datasets where target is NaN
+
+--- Log entry 2025-09-01 19:34:49.535029 ---
+Removed rows from train/test datasets where target is NaN
+
+--- Log entry 2025-09-01 19:39:11.917451 ---
+Removed rows from train/test datasets where target is NaN
+
+--- Log entry 2025-09-01 19:47:59.007637 ---
+Removed rows from train/test datasets where target is NaN
+
+--- Log entry 2025-09-06 17:25:03.916678 ---
+Removed rows from train/test datasets where target is NaN
+
+--- Log entry 2025-09-06 17:27:08.424036 ---
+Removed rows from train/test datasets where target is NaN
+
+--- Log entry 2025-09-06 17:29:54.596210 ---
+Removed rows from train/test datasets where target is NaN
+
+--- Log entry 2025-09-06 17:31:20.831925 ---
+Removed rows from train/test datasets where target is NaN

@@ -1,0 +1,50 @@
+
+--- Log entry 2025-09-01 19:42:01.411948 ---
+[fold_1] Zero-variance threshold: 0
+[fold_1] Kept features: 8514 / 8521
+[fold_1] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
+
+--- Log entry 2025-09-01 19:42:08.175304 ---
+[fold_2] Zero-variance threshold: 0
+[fold_2] Kept features: 11575 / 11582
+[fold_2] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
+
+--- Log entry 2025-09-01 19:48:02.360093 ---
+[fold_1] Zero-variance threshold: 0
+[fold_1] Kept features: 8514 / 8521
+[fold_1] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
+
+--- Log entry 2025-09-01 19:48:08.901104 ---
+[fold_2] Zero-variance threshold: 0
+[fold_2] Kept features: 11575 / 11582
+[fold_2] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
+
+--- Log entry 2025-09-06 17:29:44.634900 ---
+[fold_1] Zero-variance threshold: 0
+[fold_1] Kept features: 18 / 25
+[fold_1] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
+
+--- Log entry 2025-09-06 17:29:44.953946 ---
+[fold_2] Zero-variance threshold: 0
+[fold_2] Kept features: 20 / 27
+[fold_2] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
+
+--- Log entry 2025-09-06 17:29:54.856594 ---
+[fold_1] Zero-variance threshold: 0
+[fold_1] Kept features: 18 / 25
+[fold_1] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
+
+--- Log entry 2025-09-06 17:29:55.175169 ---
+[fold_2] Zero-variance threshold: 0
+[fold_2] Kept features: 20 / 27
+[fold_2] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
+
+--- Log entry 2025-09-06 17:31:20.965759 ---
+[fold_1] Zero-variance threshold: 0
+[fold_1] Kept features: 18 / 25
+[fold_1] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
+
+--- Log entry 2025-09-06 17:31:21.086209 ---
+[fold_2] Zero-variance threshold: 0
+[fold_2] Kept features: 20 / 27
+[fold_2] Dropped zero-variance features: ['num__location_id', 'num__sensors_id', 'num__lat', 'num__lon', 'cat__location_RO0083A-9369', 'cat__parameter_no2', 'cat__units_µg/m³']
