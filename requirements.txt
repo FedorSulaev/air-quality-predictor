@@ -1,0 +1,18 @@
+# Core data
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+
+# Machine learning
+scikit-learn==1.5.2
+xgboost==2.0.3
+
+# Visualization
+matplotlib==3.8.4
+
+# Optional: if you later use seaborn for EDA
+# seaborn==0.13.2
+
+# Jupyter (for notebooks)
+jupyter==1.0.0
+ipykernel==6.29.5
