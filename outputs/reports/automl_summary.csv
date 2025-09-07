@@ -1,0 +1,7 @@
+Model,Best_CV_RMSE,RMSE_mean,MAE_mean,R2_mean,Best_Params
+LinearRegression,25.947,25.947,20.25,-1.04,{'est__fit_intercept': True}
+Lasso,26.553,26.553,21.596,-1.047,{'est__alpha': np.float64(1.438449888287663)}
+Ridge,26.725,26.725,21.802,-1.064,{'est__alpha': np.float64(1000.0)}
+RandomForest,27.941,27.941,22.826,-1.225,"{'est__n_estimators': 300, 'est__min_samples_split': 2, 'est__min_samples_leaf': 4, 'est__max_features': 'log2', 'est__max_depth': 6}"
+HistGB,29.075,29.075,23.639,-1.426,"{'est__min_samples_leaf': 30, 'est__max_depth': 10, 'est__learning_rate': 0.03, 'est__l2_regularization': 0.01}"
+GradientBoosting,29.234,29.234,23.077,-1.348,"{'est__subsample': 1.0, 'est__n_estimators': 150, 'est__min_samples_split': 5, 'est__min_samples_leaf': 1, 'est__max_depth': 2, 'est__learning_rate': 0.05}"
